@@ -39,20 +39,20 @@
 		49B90C0E131ABC38000F09A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49B90C10131ABC38000F09A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49B90C12131ABC38000F09A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		49B90C16131ABC38000F09A9 /* iFaith-Info.plist */ = {isa = PBXFileReference; path = "iFaith-Info.plist"; sourceTree = "<group>"; };
+		49B90C16131ABC38000F09A9 /* iFaith-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFaith-Info.plist"; sourceTree = "<group>"; };
 		49B90C18131ABC38000F09A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		49B90C1A131ABC38000F09A9 /* iFaith-Prefix.pch */ = {isa = PBXFileReference; path = "iFaith-Prefix.pch"; sourceTree = "<group>"; };
+		49B90C1A131ABC38000F09A9 /* iFaith-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iFaith-Prefix.pch"; sourceTree = "<group>"; };
 		49B90C1B131ABC38000F09A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		49B90C1D131ABC38000F09A9 /* iFaithAppDelegate.h */ = {isa = PBXFileReference; path = iFaithAppDelegate.h; sourceTree = "<group>"; };
+		49B90C1D131ABC38000F09A9 /* iFaithAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iFaithAppDelegate.h; sourceTree = "<group>"; };
 		49B90C1E131ABC38000F09A9 /* iFaithAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFaithAppDelegate.m; sourceTree = "<group>"; };
 		49B90C21131ABC38000F09A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		49B90C23131ABC39000F09A9 /* iFaithViewController.h */ = {isa = PBXFileReference; path = iFaithViewController.h; sourceTree = "<group>"; };
+		49B90C23131ABC39000F09A9 /* iFaithViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iFaithViewController.h; sourceTree = "<group>"; };
 		49B90C24131ABC39000F09A9 /* iFaithViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFaithViewController.m; sourceTree = "<group>"; };
 		49B90C27131ABC39000F09A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iFaithViewController.xib; sourceTree = "<group>"; };
 		49B90C2E131ABC39000F09A9 /* iFaithTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFaithTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49B90C36131ABC39000F09A9 /* iFaithTests-Info.plist */ = {isa = PBXFileReference; path = "iFaithTests-Info.plist"; sourceTree = "<group>"; };
+		49B90C36131ABC39000F09A9 /* iFaithTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFaithTests-Info.plist"; sourceTree = "<group>"; };
 		49B90C38131ABC39000F09A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		49B90C3A131ABC39000F09A9 /* iFaithTests-Prefix.pch */ = {isa = PBXFileReference; path = "iFaithTests-Prefix.pch"; sourceTree = "<group>"; };
+		49B90C3A131ABC39000F09A9 /* iFaithTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iFaithTests-Prefix.pch"; sourceTree = "<group>"; };
 		49B90C3B131ABC39000F09A9 /* iFaithTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iFaithTests.h; sourceTree = "<group>"; };
 		49B90C3D131ABC39000F09A9 /* iFaithTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFaithTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
