@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B90C0F131ABC38000F09A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B90C0E131ABC38000F09A9 /* UIKit.framework */; };
+		49B90C11131ABC38000F09A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B90C10131ABC38000F09A9 /* Foundation.framework */; };
+		49B90C13131ABC38000F09A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B90C12131ABC38000F09A9 /* CoreGraphics.framework */; };
+		49B90C19131ABC38000F09A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B90C17131ABC38000F09A9 /* InfoPlist.strings */; };
+		49B90C1C131ABC38000F09A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B90C1B131ABC38000F09A9 /* main.m */; };
+		49B90C1F131ABC38000F09A9 /* iFaithAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B90C1E131ABC38000F09A9 /* iFaithAppDelegate.m */; };
+		49B90C22131ABC38000F09A9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B90C20131ABC38000F09A9 /* MainWindow.xib */; };
+		49B90C25131ABC39000F09A9 /* iFaithViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B90C24131ABC39000F09A9 /* iFaithViewController.m */; };
+		49B90C28131ABC39000F09A9 /* iFaithViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B90C26131ABC39000F09A9 /* iFaithViewController.xib */; };
+		49B90C2F131ABC39000F09A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B90C0E131ABC38000F09A9 /* UIKit.framework */; };
+		49B90C30131ABC39000F09A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B90C10131ABC38000F09A9 /* Foundation.framework */; };
+		49B90C31131ABC39000F09A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B90C12131ABC38000F09A9 /* CoreGraphics.framework */; };
+		49B90C39131ABC39000F09A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B90C37131ABC39000F09A9 /* InfoPlist.strings */; };
+		49B90C3C131ABC39000F09A9 /* iFaithTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 49B90C3B131ABC39000F09A9 /* iFaithTests.h */; };
+		49B90C3E131ABC39000F09A9 /* iFaithTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B90C3D131ABC39000F09A9 /* iFaithTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49B90C32131ABC39000F09A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B90C01131ABC38000F09A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B90C09131ABC38000F09A9;
+			remoteInfo = iFaith;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49B90C0A131ABC38000F09A9 /* iFaith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFaith.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B90C0E131ABC38000F09A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49B90C10131ABC38000F09A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49B90C12131ABC38000F09A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49B90C16131ABC38000F09A9 /* iFaith-Info.plist */ = {isa = PBXFileReference; path = "iFaith-Info.plist"; sourceTree = "<group>"; };
+		49B90C18131ABC38000F09A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49B90C1A131ABC38000F09A9 /* iFaith-Prefix.pch */ = {isa = PBXFileReference; path = "iFaith-Prefix.pch"; sourceTree = "<group>"; };
+		49B90C1B131ABC38000F09A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49B90C1D131ABC38000F09A9 /* iFaithAppDelegate.h */ = {isa = PBXFileReference; path = iFaithAppDelegate.h; sourceTree = "<group>"; };
+		49B90C1E131ABC38000F09A9 /* iFaithAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFaithAppDelegate.m; sourceTree = "<group>"; };
+		49B90C21131ABC38000F09A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		49B90C23131ABC39000F09A9 /* iFaithViewController.h */ = {isa = PBXFileReference; path = iFaithViewController.h; sourceTree = "<group>"; };
+		49B90C24131ABC39000F09A9 /* iFaithViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFaithViewController.m; sourceTree = "<group>"; };
+		49B90C27131ABC39000F09A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iFaithViewController.xib; sourceTree = "<group>"; };
+		49B90C2E131ABC39000F09A9 /* iFaithTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFaithTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B90C36131ABC39000F09A9 /* iFaithTests-Info.plist */ = {isa = PBXFileReference; path = "iFaithTests-Info.plist"; sourceTree = "<group>"; };
+		49B90C38131ABC39000F09A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49B90C3A131ABC39000F09A9 /* iFaithTests-Prefix.pch */ = {isa = PBXFileReference; path = "iFaithTests-Prefix.pch"; sourceTree = "<group>"; };
+		49B90C3B131ABC39000F09A9 /* iFaithTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iFaithTests.h; sourceTree = "<group>"; };
+		49B90C3D131ABC39000F09A9 /* iFaithTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFaithTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B90C07131ABC38000F09A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B90C0F131ABC38000F09A9 /* UIKit.framework in Frameworks */,
+				49B90C11131ABC38000F09A9 /* Foundation.framework in Frameworks */,
+				49B90C13131ABC38000F09A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B90C2A131ABC39000F09A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B90C2F131ABC39000F09A9 /* UIKit.framework in Frameworks */,
+				49B90C30131ABC39000F09A9 /* Foundation.framework in Frameworks */,
+				49B90C31131ABC39000F09A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B90BFF131ABC38000F09A9 = {
+			isa = PBXGroup;
+			children = (
+				49B90C14131ABC38000F09A9 /* iFaith */,
+				49B90C34131ABC39000F09A9 /* iFaithTests */,
+				49B90C0D131ABC38000F09A9 /* Frameworks */,
+				49B90C0B131ABC38000F09A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49B90C0B131ABC38000F09A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B90C0A131ABC38000F09A9 /* iFaith.app */,
+				49B90C2E131ABC39000F09A9 /* iFaithTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B90C0D131ABC38000F09A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B90C0E131ABC38000F09A9 /* UIKit.framework */,
+				49B90C10131ABC38000F09A9 /* Foundation.framework */,
+				49B90C12131ABC38000F09A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49B90C14131ABC38000F09A9 /* iFaith */ = {
+			isa = PBXGroup;
+			children = (
+				49B90C1D131ABC38000F09A9 /* iFaithAppDelegate.h */,
+				49B90C1E131ABC38000F09A9 /* iFaithAppDelegate.m */,
+				49B90C20131ABC38000F09A9 /* MainWindow.xib */,
+				49B90C23131ABC39000F09A9 /* iFaithViewController.h */,
+				49B90C24131ABC39000F09A9 /* iFaithViewController.m */,
+				49B90C26131ABC39000F09A9 /* iFaithViewController.xib */,
+				49B90C15131ABC38000F09A9 /* Supporting Files */,
+			);
+			path = iFaith;
+			sourceTree = "<group>";
+		};
+		49B90C15131ABC38000F09A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B90C16131ABC38000F09A9 /* iFaith-Info.plist */,
+				49B90C17131ABC38000F09A9 /* InfoPlist.strings */,
+				49B90C1A131ABC38000F09A9 /* iFaith-Prefix.pch */,
+				49B90C1B131ABC38000F09A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49B90C34131ABC39000F09A9 /* iFaithTests */ = {
+			isa = PBXGroup;
+			children = (
+				49B90C3B131ABC39000F09A9 /* iFaithTests.h */,
+				49B90C3D131ABC39000F09A9 /* iFaithTests.m */,
+				49B90C35131ABC39000F09A9 /* Supporting Files */,
+			);
+			path = iFaithTests;
+			sourceTree = "<group>";
+		};
+		49B90C35131ABC39000F09A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B90C36131ABC39000F09A9 /* iFaithTests-Info.plist */,
+				49B90C37131ABC39000F09A9 /* InfoPlist.strings */,
+				49B90C3A131ABC39000F09A9 /* iFaithTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B90C09131ABC38000F09A9 /* iFaith */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B90C41131ABC39000F09A9 /* Build configuration list for PBXNativeTarget "iFaith" */;
+			buildPhases = (
+				49B90C06131ABC38000F09A9 /* Sources */,
+				49B90C07131ABC38000F09A9 /* Frameworks */,
+				49B90C08131ABC38000F09A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFaith;
+			productName = iFaith;
+			productReference = 49B90C0A131ABC38000F09A9 /* iFaith.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49B90C2D131ABC39000F09A9 /* iFaithTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B90C44131ABC39000F09A9 /* Build configuration list for PBXNativeTarget "iFaithTests" */;
+			buildPhases = (
+				49B90C29131ABC39000F09A9 /* Sources */,
+				49B90C2A131ABC39000F09A9 /* Frameworks */,
+				49B90C2B131ABC39000F09A9 /* Resources */,
+				49B90C2C131ABC39000F09A9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B90C33131ABC39000F09A9 /* PBXTargetDependency */,
+			);
+			name = iFaithTests;
+			productName = iFaithTests;
+			productReference = 49B90C2E131ABC39000F09A9 /* iFaithTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49B90C01131ABC38000F09A9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 49B90C04131ABC38000F09A9 /* Build configuration list for PBXProject "iFaith" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49B90BFF131ABC38000F09A9;
+			productRefGroup = 49B90C0B131ABC38000F09A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B90C09131ABC38000F09A9 /* iFaith */,
+				49B90C2D131ABC39000F09A9 /* iFaithTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B90C08131ABC38000F09A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B90C19131ABC38000F09A9 /* InfoPlist.strings in Resources */,
+				49B90C22131ABC38000F09A9 /* MainWindow.xib in Resources */,
+				49B90C28131ABC39000F09A9 /* iFaithViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B90C2B131ABC39000F09A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B90C39131ABC39000F09A9 /* InfoPlist.strings in Resources */,
+				49B90C3C131ABC39000F09A9 /* iFaithTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49B90C2C131ABC39000F09A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B90C06131ABC38000F09A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B90C1C131ABC38000F09A9 /* main.m in Sources */,
+				49B90C1F131ABC38000F09A9 /* iFaithAppDelegate.m in Sources */,
+				49B90C25131ABC39000F09A9 /* iFaithViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B90C29131ABC39000F09A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B90C3E131ABC39000F09A9 /* iFaithTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49B90C33131ABC39000F09A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B90C09131ABC38000F09A9 /* iFaith */;
+			targetProxy = 49B90C32131ABC39000F09A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49B90C17131ABC38000F09A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B90C18131ABC38000F09A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49B90C20131ABC38000F09A9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B90C21131ABC38000F09A9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		49B90C26131ABC39000F09A9 /* iFaithViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B90C27131ABC39000F09A9 /* en */,
+			);
+			name = iFaithViewController.xib;
+			sourceTree = "<group>";
+		};
+		49B90C37131ABC39000F09A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B90C38131ABC39000F09A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49B90C3F131ABC39000F09A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49B90C40131ABC39000F09A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		49B90C42131ABC39000F09A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFaith/iFaith-Prefix.pch";
+				INFOPLIST_FILE = "iFaith/iFaith-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49B90C43131ABC39000F09A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFaith/iFaith-Prefix.pch";
+				INFOPLIST_FILE = "iFaith/iFaith-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49B90C45131ABC39000F09A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iFaith.app/iFaith";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFaithTests/iFaithTests-Prefix.pch";
+				INFOPLIST_FILE = "iFaithTests/iFaithTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		49B90C46131ABC39000F09A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iFaith.app/iFaith";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFaithTests/iFaithTests-Prefix.pch";
+				INFOPLIST_FILE = "iFaithTests/iFaithTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49B90C04131ABC38000F09A9 /* Build configuration list for PBXProject "iFaith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B90C3F131ABC39000F09A9 /* Debug */,
+				49B90C40131ABC39000F09A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B90C41131ABC39000F09A9 /* Build configuration list for PBXNativeTarget "iFaith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B90C42131ABC39000F09A9 /* Debug */,
+				49B90C43131ABC39000F09A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49B90C44131ABC39000F09A9 /* Build configuration list for PBXNativeTarget "iFaithTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B90C45131ABC39000F09A9 /* Debug */,
+				49B90C46131ABC39000F09A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49B90C01131ABC38000F09A9 /* Project object */;
+}
