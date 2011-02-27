@@ -362,6 +362,7 @@
 				INFOPLIST_FILE = "iFaith/iFaith-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = /Users/djohn/tmp/iFaith/build;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -376,6 +377,7 @@
 				INFOPLIST_FILE = "iFaith/iFaith-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = /Users/djohn/tmp/iFaith/build;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
