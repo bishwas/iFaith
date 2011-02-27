@@ -333,6 +333,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				SDKROOT = iphoneos;
+				SYMROOT = /Users/djohn/tmp/iFaith/build;
 			};
 			name = Debug;
 		};
@@ -348,6 +349,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				SYMROOT = /Users/djohn/tmp/iFaith/build;
 			};
 			name = Release;
 		};
@@ -446,6 +448,7 @@
 				49B90C43131ABC39000F09A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49B90C44131ABC39000F09A9 /* Build configuration list for PBXNativeTarget "iFaithTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +457,7 @@
 				49B90C46131ABC39000F09A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
